@@ -1,0 +1,216 @@
+/*Body*/
+body{
+    margin: 0px 0px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(74, 165, 201);
+    background-color: rgb(182, 231, 243);
+}
+
+/*Margin selain Navbar*/
+.container{
+    margin: 100px 10px;
+}
+
+/*Navbar*/
+.topnavbar {
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(107, 97, 199);
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+} /*Isi menu navbar*/
+    ul {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        max-width: 1440px;
+    }
+    li {
+        float: left;
+        
+    }
+    
+    li a {
+        display: inline-block;
+        color: rgb(107, 97, 199);
+        text-align: justify;
+        padding: 28px 20px;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: rgb(74, 165, 201);
+        color:rgb(255, 255, 255) ;
+        transition-duration: 200ms;
+    }/*Konten dalam Navbar*/
+    .menu{
+        float: right;
+    }
+    .border{
+        background-color: rgb(149, 115, 182);
+    }
+    
+
+/*Search bar*/
+#search-bar{
+    padding: 30px 20px 20px 50px;
+    border: none;
+}
+
+/*Gambar Logo di tentang*/
+#logo{
+    margin: 6px 15px 0px 30px;
+    height: 64px;
+}
+
+/*Buat di tentang warung*/
+.profile{
+    margin: 50px 90px ;
+    padding: 40px 0px 150px 50px;
+    height: 310px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 154, 168);
+    background-image: url(warunga.png);
+    background-repeat:no-repeat;
+    background-blend-mode: multiply;
+}
+
+/*Gambar di tentang Warung*/
+    #profile-img{
+        width: 240px;
+        height: 240px;
+        float: right;   
+        margin: -1em 5em 10em 5em;
+        border-radius: 150px;
+        border: none;
+    }
+    /*Link di tentang warung*/
+    .social-media{
+        display : flex;
+        justify-content:stretch;
+    }
+    /*Icon di link dalam tentang warung*/
+        i{
+            font-size: 100%;
+            color: white;
+        }
+
+        .about {
+            background-color: rgb(136, 136, 136); /* Green */
+            border: 1px solid gray;
+            padding: 10px 10px 10px 10px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px ;
+            margin: 10px 10px;
+            cursor: pointer;
+            border-radius : 10px;
+        }
+        .about:hover{
+            background-color:rgb(97, 105, 173);
+        }
+
+/*Flexbox untuk list produk*/
+.flex-container {
+    display: flex;
+    float: left;
+    width: fit-content;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    align-items: stretch ;
+    align-content:space-between;
+    background-color: rgb(182, 231, 243);
+  }
+
+  .flex-container > div {
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    background-color: #f1f1f1;
+    padding: 8px;
+    font-size: auto;
+    margin-bottom: 10px;
+  }
+
+  .tombol
+  {
+      background-color: rgb(107, 97, 199);  
+      text-decoration: none;
+      border-radius: 7px;
+      padding: 7px;
+      margin: 4px;
+      display: block;
+      position:unset;
+      float: left;
+      width: auto;
+      text-align: center;
+      color: white;
+  }
+   
+  .tombol:hover
+  {
+      background-color: black;
+      transition-duration: 700ms;
+  }
+
+.slideshow{
+    max-width: 1000px;
+    position:initial;
+    margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.hal-produk{
+    padding: 20px 50px ;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+.halaman-produk{
+        padding: 30px 30px;
+        display: flex;
+        float: left;
+        width: fit-content;
+        flex-wrap: no wrap;
+        
+}
+
+.img-produk{
+    margin: 300px 300px;
+}
+
+.halaman-produk > div {
+    border-radius: 10px;
+    width: auto;
+    height: 250px;
+    margin: 7px;
+    padding: 5px;
+    font-size: auto;
+  }
+
+/*Login*/
+.login{
+    background-color: white;
+    margin: 100px 100px;
+    padding: 20px 20px;
+}
+
+.background{
+    background-color: white;
+    margin: 100px 100px;
+    padding: 20px 20px;
+}
